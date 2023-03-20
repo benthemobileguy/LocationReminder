@@ -19,10 +19,6 @@ import java.io.IOException
 import java.net.HttpURLConnection
 import java.net.URL
 
-
-/**
- * Extension function to setup the RecyclerView
- */
 fun <T> RecyclerView.setup(
     adapter: BaseRecyclerViewAdapter<T>
 ) {

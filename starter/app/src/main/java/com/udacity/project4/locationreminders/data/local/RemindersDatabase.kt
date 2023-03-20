@@ -12,3 +12,4 @@ abstract class RemindersDatabase : RoomDatabase() {
 
     abstract fun reminderDao(): RemindersDao
 }
+
