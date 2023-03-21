@@ -4,6 +4,7 @@
     <string name="error_happened">Error happened</string>
     <string name="dismiss">Dismiss</string>
     <string name="retry">Retry</string>
+    <string name="reminding_location_range">Reminding Location Range (metres)</string>
     <string name="no_data">No Data</string>
     <string name="reminder_title">Reminder Title</string>
     <string name="reminder_desc">Description</string>
