@@ -74,3 +74,4 @@ class SingleLiveEvent<T> : MutableLiveData<T>() {
         private val TAG = "SingleLiveEvent"
     }
 }
+
