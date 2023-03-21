@@ -22,7 +22,6 @@ import org.hamcrest.core.Is.`is`
 
 import kotlinx.coroutines.test.runBlockingTest
 
-//@Config(sdk = [Build.VERSION_CODES.P]) // set the target sdk to P for test
 @ExperimentalCoroutinesApi
 @RunWith(AndroidJUnit4::class)
 class SaveReminderViewModelTest {
@@ -36,11 +35,9 @@ class SaveReminderViewModelTest {
     private val reminder2_noTitle = ReminderDataItem("", "Description2", "location2", 2.0, 2.0, "2")
     private val reminder3_noLocation = ReminderDataItem("Reminder3", "Description3", "", 3.0, 3.0, "3")
 
-    // Executes each task synchronously using Architecture Components.
     @get:Rule
     var instantExecutorRule = InstantTaskExecutorRule()
 
-    // Set the main coroutines dispatcher for unit testing.
     @ExperimentalCoroutinesApi
     @get:Rule
     var mainCoroutineRule = MainCoroutineRule()
